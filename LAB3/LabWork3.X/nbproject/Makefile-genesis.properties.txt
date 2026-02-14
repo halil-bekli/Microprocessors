@@ -1,0 +1,13 @@
+#
+#Wed Dec 03 10:20:26 EET 2025
+default.languagetoolchain.version=3.00
+default.Pack.dfplocation=/opt/microchip/mplabx/v6.20/packs/Microchip/PIC12-16F1xxx_DFP/1.7.242
+conf.ids=default
+default.languagetoolchain.dir=/opt/microchip/xc8/v3.00/bin
+host.id=2m1o-5whi-bg
+configurations-xml=e5ffb8aca445c47ed98d87ebaef6dff2
+default.com-microchip-mplab-mdbcore-PICKit3Tool-PICkit3DbgToolManager.md5=5b9902b017a30efdeb77dee75a1e4e51
+com-microchip-mplab-nbide-embedded-makeproject-MakeProject.md5=f612087c95360c842296d189edfe3321
+default.com-microchip-mplab-nbide-toolchain-xc8-XC8LanguageToolchain.md5=bf89cdcdd6c0a49174fe4b605ef2b42d
+proj.dir=/home/admin/Desktop/H_B/LabWork3.X
+host.platform=linux

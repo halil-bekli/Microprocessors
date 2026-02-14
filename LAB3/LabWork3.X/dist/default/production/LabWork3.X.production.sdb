@@ -1,0 +1,157 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1518 ]
+[d frameptr 6 ]
+"10 /opt/microchip/xc8/v3.00/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"52 /home/admin/Desktop/H_B/LabWork3.X/LabWork3.c
+[v _main main `(i  1 e 2 0 ]
+"89
+[v _initOscillator initOscillator `(v  1 e 1 0 ]
+"99
+[v _initADC initADC `(v  1 e 1 0 ]
+"112
+[v _readADC readADC `(us  1 e 2 0 ]
+[s S52 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1069 /opt/microchip/mplabx/v6.20/packs/Microchip/PIC12-16F1xxx_DFP/1.7.242/xc8/pic/include/proc/pic16f1518.h
+[u S61 . 1 `S52 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES61  1 e 1 @140 ]
+[s S95 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1131
+[u S104 . 1 `S95 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES104  1 e 1 @141 ]
+[s S142 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF 1 0 :4:3 
+]
+"1561
+[s S146 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF0 1 0 :1:3 
+`uc 1 IRCF1 1 0 :1:4 
+`uc 1 IRCF2 1 0 :1:5 
+`uc 1 IRCF3 1 0 :1:6 
+]
+[u S154 . 1 `S142 1 . 1 0 `S146 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES154  1 e 1 @153 ]
+"1668
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1688
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+[s S198 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"1733
+[s S202 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S210 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S213 . 1 `S198 1 . 1 0 `S202 1 . 1 0 `S210 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES213  1 e 1 @157 ]
+[s S170 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS 1 0 :3:4 
+`uc 1 ADFM 1 0 :1:7 
+]
+"1809
+[s S175 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS0 1 0 :1:4 
+`uc 1 ADCS1 1 0 :1:5 
+`uc 1 ADCS2 1 0 :1:6 
+]
+[u S182 . 1 `S170 1 . 1 0 `S175 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES182  1 e 1 @158 ]
+[s S116 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1933
+[u S125 . 1 `S116 1 . 1 0 ]
+[v _LATBbits LATBbits `VES125  1 e 1 @269 ]
+[s S30 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 ANSA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 ANSA5 1 0 :1:5 
+]
+"2176
+[s S37 . 1 `uc 1 ANSELA 1 0 :6:0 
+]
+[u S39 . 1 `S30 1 . 1 0 `S37 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES39  1 e 1 @396 ]
+[s S73 . 1 `uc 1 ANSB0 1 0 :1:0 
+`uc 1 ANSB1 1 0 :1:1 
+`uc 1 ANSB2 1 0 :1:2 
+`uc 1 ANSB3 1 0 :1:3 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+]
+"2229
+[s S80 . 1 `uc 1 ANSELB 1 0 :6:0 
+]
+[u S82 . 1 `S73 1 . 1 0 `S80 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES82  1 e 1 @397 ]
+"52 /home/admin/Desktop/H_B/LabWork3.X/LabWork3.c
+[v _main main `(i  1 e 2 0 ]
+{
+"68
+[v main@adcValue adcValue `us  1 a 2 6 ]
+"69
+[v main@threshold threshold `us  1 a 2 4 ]
+"83
+} 0
+"112
+[v _readADC readADC `(us  1 e 2 0 ]
+{
+[v readADC@channel channel `uc  1 p 1 wreg ]
+[v readADC@channel channel `uc  1 p 1 wreg ]
+"114
+[v readADC@channel channel `uc  1 p 1 3 ]
+"121
+} 0
+"89
+[v _initOscillator initOscillator `(v  1 e 1 0 ]
+{
+"93
+} 0
+"99
+[v _initADC initADC `(v  1 e 1 0 ]
+{
+"106
+} 0
